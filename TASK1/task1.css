@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  .left-side {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+  }
+  .left-side h1 {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #222222;
+    font-size: 80px;
+    line-height: 1.2;
+  }
+  .subheading {
+    font-family: "Poppins", Arial, sans-serif;
+    
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #d5c455;
+        font-size: 16px;
+        letter-spacing: 1px;
+  }
+  a {
+    text-transform: uppercase;
+  }
+  
+  
+  button {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .button1 {
+    background: #d5c455 ;
+    border: 1px solid #d5c455 ;
+    color: #fff ;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: #222222;
+  }
+  .button2 {
+    background: rgb(255, 255, 255) ;
+    border: 1px solid #ffffff ;
+    color: #000000 ;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
+  }
+  .button-container button {
+    margin-right: 0%; 
+  }
+  .button1, .button2 {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease ;
+  }
+  .button1:hover {
+    background-color: #a58f00; 
+  }
+  
+  .button2:hover {
+    background-color: #b4b4b4; 
+  }
+  
+
+  .right-side {
+    flex: auto;
+    background-color: yellow; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-container {
+    max-width: 80%;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .Copyright {
+    margin-top: 50%;
+  }
